@@ -1,0 +1,53 @@
+.card{
+  width: 18rem;
+  display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1;
+    margin:20
+ solid rgba(0,0,0,.125);
+    border-radius: 0.25;
+    border: 1px solid;
+    border-radius: 1%;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.75);
+    margin: 56px;
+    height: 520px;
+  
+;
+}
+
+.header{
+  text-align: center;
+  
+}
+.card-img-top{
+  width: 18rem;
+}
+.recipesDiv{
+  display: flex;
+  font-size: large;
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.btn{
+  
+  cursor: pointer;
+  font-size: 18px;
+  background: salmon;
+  border: none;
+  padding: 20px 10px;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.App{
+background-color: rgba(172, 162, 150, 0.336);
+}
