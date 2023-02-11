@@ -1,45 +1,59 @@
-.card{
-  width: 18rem;
+.btnCenter{
   display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1;
-    margin:20
- solid rgba(0,0,0,.125);
-    border-radius: 0.25;
-    border: 1px solid;
-    border-radius: 1%;
-    padding: 20px;
-    -webkit-box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.75);
-    margin: 56px;
-    height: 520px;
-  
-;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 0 5px 15px 0 #8b8b8b;
+  padding: 16px;
+  margin: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  height: 520px;
+  width: 200px;
+  padding: 20px;
+  overflow:hidden ; 
+  float:left;
+}
+div{
+  justify-content: center;
+  margin-left: 20px;
 }
 
-.header{
+button {
+  float: left;
+}
+
+
+.card img {
+  width:100%;
+  height: 150px;
+}
+
+.header {
   text-align: center;
-  
+  letter-spacing: 2px;
+
 }
-.card-img-top{
-  width: 18rem;
+
+.card-img-top {
+  width: 30rem;
 }
-.recipesDiv{
-  display: flex;
+
+.recipesDiv { 
   font-size: large;
   font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+ align-items: center;
+  padding: 0px;
+
 }
-.btn{
-  
+
+.btn {
   cursor: pointer;
   font-size: 18px;
   background: salmon;
@@ -47,7 +61,13 @@
   padding: 20px 10px;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
+
 }
-.App{
-background-color: rgba(172, 162, 150, 0.336);
+
+p{
+  height: 220px;
+}
+
+.App {
+  background-color: rgba(172, 162, 150, 0.336);
 }
